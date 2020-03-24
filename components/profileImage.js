@@ -18,7 +18,7 @@ export class profileImage extends HTMLElement {
                     cursor: pointer;
                 }
             </style>
-            <img src="../images/${this._src}" alt="social media logo" />
+            <img src="/images/${this._src}" alt="social media logo" />
         `;
     }
 

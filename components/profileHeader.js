@@ -16,7 +16,7 @@ export class profileHeader extends HTMLElement {
                     flex-direction: column;
                     justify-content: space-around;
                     align-items: center;
-                    background-image: url("../images/portland.jpg");
+                    background-image: url("/images/portland.jpg");
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -72,7 +72,7 @@ export class profileHeader extends HTMLElement {
                 }
             </style>
             <div>
-                <img src="../images/${this.data.img}" alt="profile picture" />
+                <img src="/images/${this.data.img}" alt="profile picture" />
                 <h1>${this.data.title}</h1>
                 <p>${this.data.subtitle}</p>
             </div>
